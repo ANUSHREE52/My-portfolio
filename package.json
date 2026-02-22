@@ -14,6 +14,10 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@tailwindcss/postcss": "^4.1.18",
+>>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
@@ -21,7 +25,11 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "postcss": "^8.5.6",
+<<<<<<< HEAD
     "tailwindcss": "^3.4.19",
+=======
+    "tailwindcss": "^4.1.18",
+>>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
     "typescript": "^5"
   }
 }
