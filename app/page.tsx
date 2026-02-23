@@ -54,9 +54,8 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">About Me</h2>
           <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
-            <p className="text-gray-300 text-lg leading-relaxed">
-              I'm a passionate Full Stack Developer with expertise in the MERN stack. 
-              I love creating innovative web solutions that combine beautiful design with powerful functionality.
+            <p className="text-gray-300 text-lg leading-relaxed text-justify">
+              Highly motivated and results-oriented Software Engineer specializing in scalable full-stack applications using the MERN stack, with a strong foundation in Data Structures, Algorithms, and system design. Focused on efficient backend architecture, performance-driven development, and delivering clean, production-ready solutions in collaborative environments.
             </p>
           </div>
         </div>
@@ -83,7 +82,7 @@ export default function Home() {
           <div className="mb-12">
             <h3 className="text-2xl font-semibold text-purple-400 mb-6 text-center">Frontend Development</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-              {['React.js', 'Next.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive Web Design'].map((skill) => (
+              {['React.js', 'Next.js', 'HTML', 'CSS', 'Tailwind CSS', 'Responsive Web Design'].map((skill) => (
                 <div key={skill} className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
                   <h4 className="text-white font-semibold text-center">{skill}</h4>
                 </div>
@@ -161,12 +160,17 @@ export default function Home() {
             
             {/* Campus Connect */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <div className="h-40 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg mb-4"></div>
+              <div className="h-40 rounded-lg mb-4 overflow-hidden">
+                <img src="/projects/campus.png" alt="CampusConnect" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-xl font-bold text-white mb-2">CampusConnect</h3>
               <p className="text-gray-300 mb-4">Dynamic platform that keeps students informed about placement interviews with real-time updates, schedules, and insights.</p>
-              <div className="flex gap-2 mb-4">
-                <span className="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-full text-sm">React</span>
-                <span className="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-sm">Node.js</span>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-purple-500/30 text-purple-300 rounded-full text-xs">PHP</span>
+                <span className="px-2 py-1 bg-pink-500/30 text-pink-300 rounded-full text-xs">SCSS</span>
+                <span className="px-2 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs">CSS</span>
+                <span className="px-2 py-1 bg-orange-500/30 text-orange-300 rounded-full text-xs">Hack</span>
+                <span className="px-2 py-1 bg-yellow-500/30 text-yellow-300 rounded-full text-xs">JavaScript</span>
               </div>
               <a href="https://github.com/ANUSHREE52/Campus-Connect" target="_blank" className="text-purple-400 hover:text-purple-300 transition-colors">
                 View on GitHub →
@@ -175,12 +179,15 @@ export default function Home() {
 
             {/* Agri Market */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <div className="h-40 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg mb-4"></div>
+              <div className="h-40 rounded-lg mb-4 overflow-hidden">
+                <img src="/projects/agrimarket.png" alt="AgriMarket" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-xl font-bold text-white mb-2">AgriMarket</h3>
               <p className="text-gray-300 mb-4">Connects farmers directly to markets, enabling better pricing and increased profitability without middlemen.</p>
-              <div className="flex gap-2 mb-4">
-                <span className="px-3 py-1 bg-green-500/30 text-green-300 rounded-full text-sm">React</span>
-                <span className="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-sm">MongoDB</span>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-orange-500/30 text-orange-300 rounded-full text-xs">HTML</span>
+                <span className="px-2 py-1 bg-yellow-500/30 text-yellow-300 rounded-full text-xs">JavaScript</span>
+                <span className="px-2 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs">CSS</span>
               </div>
               <a href="https://github.com/ANUSHREE52/Agri-Market" target="_blank" className="text-purple-400 hover:text-purple-300 transition-colors">
                 View on GitHub →
@@ -189,12 +196,14 @@ export default function Home() {
 
             {/* EduPing */}
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-300 transform hover:scale-105">
-              <div className="h-40 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg mb-4"></div>
+              <div className="h-40 rounded-lg mb-4 overflow-hidden">
+                <img src="/projects/eduping.png" alt="EduPing" className="w-full h-full object-cover" />
+              </div>
               <h3 className="text-xl font-bold text-white mb-2">EduPing</h3>
               <p className="text-gray-300 mb-4">Automatically extracts key information from long emails and reminds students about deadlines, venues, and events.</p>
-              <div className="flex gap-2 mb-4">
-                <span className="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full text-sm">React</span>
-                <span className="px-3 py-1 bg-yellow-500/30 text-yellow-300 rounded-full text-sm">Node.js</span>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-blue-500/30 text-blue-300 rounded-full text-xs">Python</span>
+                <span className="px-2 py-1 bg-orange-500/30 text-orange-300 rounded-full text-xs">HTML</span>
               </div>
               <a href="https://github.com/ANUSHREE52/Full-Stack" target="_blank" className="text-purple-400 hover:text-purple-300 transition-colors">
                 View on GitHub →
