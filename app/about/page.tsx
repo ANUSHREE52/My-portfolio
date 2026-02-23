@@ -42,31 +42,22 @@ export default function Home() {
           <ProjectCard
             title="CampusConnect"
             desc="Platform that keeps students informed about placement interviews with real-time updates."
-<<<<<<< HEAD
-=======
             image="/projects/campus.png"
             github="https://github.com/ANUSHREE52/Campus-Connect"
->>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
           />
 
           <ProjectCard
             title="AgriMarket"
             desc="Connects farmers directly to markets for better pricing and profits."
-<<<<<<< HEAD
-=======
             image="/projects/agrimarket.png"
             github="https://github.com/ANUSHREE52/Agri-Market"
->>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
           />
 
           <ProjectCard
             title="EduPing"
             desc="Extracts key info from emails and reminds users about deadlines and events."
-<<<<<<< HEAD
-=======
             image="/projects/eduping.png"
             github="https://github.com/ANUSHREE52/Full-Stack"
->>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
           />
 
         </div>

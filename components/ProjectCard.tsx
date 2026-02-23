@@ -1,11 +1,7 @@
 type Props = {
   title: string;
   desc: string;
-<<<<<<< HEAD
-  image: string;
-=======
   image?: string;
->>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
   github?: string;
   demo?: string;
 };
@@ -21,13 +17,6 @@ export default function ProjectCard({
     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition duration-300">
 
       {/* IMAGE */}
-<<<<<<< HEAD
-      <img
-        src={image}
-        alt={title}
-        className="h-40 w-full object-cover"
-      />
-=======
       {image ? (
         <img
           src={image}
@@ -39,7 +28,6 @@ export default function ProjectCard({
           <span className="text-gray-500">No Image</span>
         </div>
       )}
->>>>>>> dedfe06e678734cb5c1229197367b3e5900c05aa
 
       {/* CONTENT */}
       <div className="p-5">
